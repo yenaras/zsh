@@ -1,0 +1,4 @@
+backup ()
+{
+    echo "sudo rsync -harvpP --inplace --delete exclude-from=/home/brandon/.config/rsync/backup_exclude.txt / /media/backup"
+}
