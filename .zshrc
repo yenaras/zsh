@@ -5,9 +5,6 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Lines configured by zsh-newuser-install
-HISTFILE=~/.config/zsh/.histfile
-HISTSIZE=10000
-SAVEHIST=10000
 setopt beep extendedglob nomatch notify
 bindkey -v
 autoload -U $ZDOTDIR/tmux_cursor_fix

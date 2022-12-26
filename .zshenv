@@ -17,3 +17,4 @@ export VI_MODE_SETCURSOR=true
 export MANPAGER="less -R --use-color -Dd+r -Du+b"
 
 export WORKON_HOME="$XDG_CONFIG_HOME/virtualenvs"
+. "$HOME/.cargo/env"
