@@ -36,7 +36,6 @@ alias :q='exit'
 alias cr='cargo run'
 alias cb='cargo build'
 alias py='python'
-alias cat='bat'
 alias rm="rm -i"
 alias esoaddons='cd .steam/steam/steamapps/compatdata/306130/pfx/drive_c/users/steamuser/My\ Documents/Elder\ Scrolls\ Online/live/AddOns'
 alias less="less -R"
