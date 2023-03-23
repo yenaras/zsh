@@ -1,5 +1,8 @@
 .histfile
 .zhistory
+.zsh_history
+LS_COLORS
+zsh-autosuggestions
 .zcompdump
 .p10k.zsh
 .zcompdump.arch-pc.59206

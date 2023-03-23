@@ -15,6 +15,8 @@ alias gr='git remote'
 alias grs='git remote show'
 alias glo='git log --pretty="oneline"'
 alias glol='git log --graph --oneline --decorate'
+alias dcb="docker-compose build"
+alias dcu="docker-compose up"
 alias n='nvim'
 alias v='nvim'
 alias vi='nvim'
@@ -22,7 +24,7 @@ alias sv='sudo nvim'
 alias sn='sudo nvim'
 alias pacup='sudo pacman -Syu'
 alias pac='sudo pacman -S'
-alias pacr='sudo pacman -Rsn'
+alias pacr='sudo pacman -Rns'
 alias tmux="tmux -2"
 alias ls='ls --color=auto'
 alias lsl='ls -l'
@@ -40,3 +42,4 @@ alias py='python'
 alias rm="rm -i"
 alias esoaddons='cd .steam/steam/steamapps/compatdata/306130/pfx/drive_c/users/steamuser/My\ Documents/Elder\ Scrolls\ Online/live/AddOns'
 alias less="less -R"
+alias ssha='eval $(ssh-agent) && ssh-add'
