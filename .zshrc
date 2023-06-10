@@ -1,4 +1,3 @@
-source ~/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
@@ -33,5 +32,6 @@ autoload -U $XDG_CONFIG_HOME/zsh/colored_manpages
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
 export PATH="$HOME/.poetry/bin:$PATH"
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.config/zsh/LS_COLORS/lscolors.sh
+source /home/brandon/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/brandon/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /home/brandon/.config/zsh/LS_COLORS/dircolors.sh
