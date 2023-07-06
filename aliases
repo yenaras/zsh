@@ -43,3 +43,4 @@ alias rm="rm -i"
 alias esoaddons='cd .steam/steam/steamapps/compatdata/306130/pfx/drive_c/users/steamuser/My\ Documents/Elder\ Scrolls\ Online/live/AddOns'
 alias less="less -R"
 alias ssha='eval $(ssh-agent) && ssh-add'
+alias chrome="google-chrome-stable"
