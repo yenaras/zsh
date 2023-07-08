@@ -45,3 +45,4 @@ alias less="less -R"
 alias ssha='eval $(ssh-agent) && ssh-add'
 alias chrome="google-chrome-stable"
 alias open="xdg-open"
+alias oi="xdg-open index.html"
