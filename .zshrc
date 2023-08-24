@@ -35,3 +35,5 @@ export PATH="$HOME/.poetry/bin:$PATH"
 source /home/brandon/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /home/brandon/.config/zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /home/brandon/.config/zsh/LS_COLORS/dircolors.sh
+source /home/brandon/.config/zsh/extract
+source /home/brandon/.config/zsh/ix
